@@ -1,6 +1,6 @@
 /* default light Mode */
 body {
-    background-color: #ffffff;
+    background-color: #e0dddd;
     color: #000000;
     font-family: Arial, sans-serif;
 }
@@ -13,10 +13,10 @@ body {
 /* dark mode */
 body.dark-mode {
     background-color: #121212;
-    color: #ffffff;
+    color: #e0dddd;
 }
 
 .table.dark-mode, .btn.dark-mode {
     background-color: #1e1e1e;
-    color: #ffffff;
+    color: #e0dddd;
 }

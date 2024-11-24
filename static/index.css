@@ -1,0 +1,22 @@
+/* default light Mode */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+.table, .btn {
+    background-color: #f8f9fa;
+    color: #000000;
+}
+
+/* dark mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.table.dark-mode, .btn.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}

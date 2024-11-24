@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Transaction</title>
+</head>
+<body>
+    <h1>Add a New Transaction</h1>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.category.label }}<br>
+            {{ form.category }}
+        </p>
+        <p>
+            {{ form.amount.label }}<br>
+            {{ form.amount }}
+        </p>
+        <p>
+            {{ form.description.label }}<br>
+            {{ form.description }}
+        </p>
+        <p>{{ form.submit }}</p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Budgeting App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Welcome to the Budgeting Assistant</h1>
+    <a href="{{ url_for('dashboard') }}">View Dashboard</a>
+    <a href="{{ url_for('add_transaction') }}">Add Transaction</a>
+</body>
+</html>
